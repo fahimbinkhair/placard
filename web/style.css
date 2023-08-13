@@ -1,0 +1,19 @@
+.screen_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.screen_table th,
+.screen_table td {
+  padding: 8px;
+  border: 1px solid #ccc; /* Add desired border style */
+}
+
+/* Additional styles for specific elements if needed */
+.screen_table th {
+  font-weight: bold;
+}
+
+.screen_table td.submit-cell {
+  text-align: center;
+}
